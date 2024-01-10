@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh '/home/orphee/jenkinspipelinehelloworld/build.sh'
+                sh '/deploy.sh'
             }
         }
     }
