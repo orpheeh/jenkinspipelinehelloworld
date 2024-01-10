@@ -1,0 +1,3 @@
+stage('Deploy') {
+    // some block
+}
