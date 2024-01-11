@@ -2,4 +2,6 @@ version: '3'
 services:
   web:
     build: .
+    ports:
+    - "3000:80"
     command: echo "I'm running ${COMPOSE_PROJECT_NAME}"
