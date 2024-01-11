@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/orphee/jenkinspipelinehelloworld 
+sudo cd /home/orphee/jenkinspipelinehelloworld 
 
 sudo git checkout master
 sudo git pull origin master
