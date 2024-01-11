@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-               
+                sh "sudo chmod +x -R ${env.WORKSPACE}"
                 sh "./deploy.sh" 
             }
         }
