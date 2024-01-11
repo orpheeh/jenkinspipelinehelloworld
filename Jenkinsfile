@@ -15,7 +15,9 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh "chmod +x -R ${env.WORKSPACE}"
-                sh "./deploy.sh"
+                dir('/home/orphee/jenkinspipelinehelloworld') {
+                    sh "./deploy.sh"
+                }
             }
         }
     }
