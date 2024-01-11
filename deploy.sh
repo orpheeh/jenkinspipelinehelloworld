@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo git add .
+sudo git commit -m "save for deploy"
 sudo git checkout master
 sudo git pull origin master
 
